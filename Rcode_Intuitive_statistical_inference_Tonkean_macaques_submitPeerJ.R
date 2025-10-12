@@ -1,5 +1,5 @@
 ########################################################################################################
-############## R script for article "Intuitive Statistical inferences in Tonkean macaques" #############
+########## R script for article "Are Tonkean macaques able to make intuitive statistical inferences"###
 ########################################################################################################
 ######################################################################################################## 
 ########################################################################################################
@@ -32,7 +32,7 @@ library(sjPlot)
 
 # Write your directory here
 
-setwd("C:/Users/Tarou/Documents/Doctorat_ToM/Rédaction Articles/Soumission_Article_Reviewed")
+setwd("Write your directory")
 getwd()
 
 ##### Upload data #####
@@ -530,4 +530,5 @@ str(NbSuccess.Cond.Ind)
 
 ### Results Table S5
 write.table(NbSuccess.Cond.Ind,"Table S5.csv",sep=";",row.names=FALSE)
+
 
